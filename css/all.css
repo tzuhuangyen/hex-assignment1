@@ -1,0 +1,241 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "PingFang TC","sans-serif";
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.a-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-justify-space-b {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.text-align-c {
+  text-align: center;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.pl-42 {
+  padding-left: 42px;
+}
+
+.pr-42 {
+  padding-right: 42px;
+}
+
+.pt-14 {
+  padding-top: 14px;
+}
+
+.pb-14 {
+  padding-bottom: 14px;
+}
+
+.pt-16 {
+  padding-top: 16px;
+}
+
+.pb-16 {
+  padding-bottom: 16px;
+}
+
+.pt-18 {
+  padding-top: 18px;
+}
+
+.pb-18 {
+  padding-bottom: 18px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pr-30 {
+  padding-right: 30px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.container nav {
+  margin-bottom: 30px;
+}
+
+.container nav .logo {
+  width: 211px;
+}
+
+.container nav .menu {
+  font-size: 24px;
+  margin-right: 20px;
+  color: #3f5d45;
+}
+
+.container nav .menu:hover {
+  cursor: pointer;
+  color: #eaf0ed;
+}
+
+.container nav .menu .cart {
+  width: 24px;
+  height: 24px;
+}
+
+.container main {
+  margin-top: 60px;
+}
+
+.container main .types {
+  font-size: 24px;
+  min-width: 300px;
+}
+
+.container main .types .type-of {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #3f5d45;
+  color: #eaf0ed;
+}
+
+.container main .types .type-name {
+  border: 1px solid #eaf0ed;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #3f5d45;
+}
+
+.container main .types .type-name:hover {
+  background-color: #eaf0ed;
+  cursor: pointer;
+}
+
+.container main .itemCard {
+  width: 300px;
+  position: relative;
+}
+
+.container main .itemCard .today {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  background-color: #3f5d45;
+  color: #eaf0ed;
+  font-size: 16px;
+  padding: 10px 11px;
+}
+
+.container main .itemCard .like {
+  position: absolute;
+  top: 19px;
+  right: 22px;
+}
+
+.container main .itemCard .item-info {
+  border: 1px solid red;
+  color: #3f5d45;
+  font-size: 24px;
+}
+
+.container main .itemCard .item-info .item-name {
+  font-weight: lighter;
+  width: 173px;
+  border-right: 1px solid red;
+}
+
+.container main .itemCard .item-info .item-price {
+  font-weight: 700;
+  width: 127px;
+}
+
+.container main .itemCard .addIn {
+  background-color: #eaf0ed;
+  font-size: 24px;
+  color: #3f5d45;
+  font-weight: bold;
+  padding: 16px 90px;
+}
+
+.container main .itemCard .addIn:hover {
+  cursor: pointer;
+  background-color: #3f5d45;
+  color: #eaf0ed;
+}
+
+.container .pagination {
+  color: #3f5d45;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 60px;
+  margin-top: 10px;
+}
+
+.container .pagination .pre-page, .container .pagination .next-page, .container .pagination .page {
+  border: 1px solid #eaf0ed;
+  font-size: 24px;
+  padding: 16px 26px;
+}
+
+.container .pagination .pre-page:hover, .container .pagination .next-page:hover, .container .pagination .page:hover {
+  cursor: pointer;
+  background-color: #3f5d45;
+  color: #eaf0ed;
+}
+
+.container .pagination .page {
+  font-size: 24px;
+  color: #3f5d45;
+}
+/*# sourceMappingURL=all.css.map */

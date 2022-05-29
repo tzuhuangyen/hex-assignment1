@@ -1,0 +1,196 @@
+$pri-color:#3f5d45;
+$sec-color:#eaf0ed;
+$font-s-size:8px;
+$font-m-size:16px;
+$font-l-size:24px;
+
+
+
+* {
+  box-sizing: border-box;
+  // outline: 1px solid red;
+}
+body {
+ 
+  font-family: "PingFang TC","sans-serif";
+}
+
+a{
+  text-decoration:none;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+  
+
+
+.d-flex{
+    display:flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.a-items-center{
+    align-items: center;}
+.flex-justify-space-b{
+    justify-content:space-between;}
+.text-align-c{
+    text-align:center;}
+.mb-20{
+    margin-bottom:20px;}
+.mr-20{
+    margin-right:20px;}
+.pl-42{
+    padding-left:42px;}
+.pr-42{
+    padding-right:42px;}
+.pt-14{
+    padding-top:14px;}
+.pb-14{
+    padding-bottom:14px;}
+.pt-16{
+    padding-top:16px;}
+.pb-16{
+    padding-bottom:16px;}
+.pt-18{
+    padding-top:18px;}
+.pb-18{
+    padding-bottom:18px;}
+.pt-30{
+    padding-top:30px;}
+.pb-30{
+    padding-bottom:30px;}
+.pr-30{
+    padding-right:30px;}
+.pl-30{
+    padding-left:30px;}
+
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  // margin-right: -20px;
+
+  nav {
+  margin-bottom: 30px;
+     .logo {
+            width: 211px;
+            }
+     .menu{  
+      font-size: $font-l-size;
+      margin-right:20px;
+      color:$pri-color;
+       &:hover{
+              cursor:pointer;
+              color:$sec-color;
+              }
+      .cart{
+      width: 24px;
+      height: 24px;
+         }
+       }     
+  }
+  
+  main {
+  margin-top: 60px;
+
+   .types{
+    font-size: $font-l-size; 
+    min-width: 300px;  
+    
+    .type-of{
+      padding-top: 16px;
+      padding-bottom: 16px;
+      background-color: $pri-color;
+      color:$sec-color;
+    }
+    .type-name {
+      border: 1px solid #eaf0ed;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      color: $pri-color;
+      &:hover{
+        background-color: #eaf0ed;
+        cursor:pointer;
+      }
+    
+    }
+   
+  }
+ // 產品卡片區   
+    .itemCard{
+      width: 300px;
+      position: relative;
+      .today{
+        position: absolute;
+        top: 0;left: 20px;
+        writing-mode:vertical-lr;
+        background-color: $pri-color;
+        color:$sec-color;
+        font-size: $font-m-size;
+        padding: 10px 11px;
+      }
+      .like{
+        position: absolute;
+        top: 19px;right: 22px;
+      }
+      .item-info{
+        border: 1px solid red;
+        color:$pri-color;
+       font-size: $font-l-size;
+        .item-name{
+          font-weight: lighter;
+           width: 173px;
+           border-right: 1px solid red;           
+        }
+        .item-price{
+          font-weight: 700;
+          width: 127px;
+        }
+      }
+      .addIn{
+        background-color: $sec-color;
+        font-size: $font-l-size;
+        color:$pri-color;
+        font-weight: bold;
+        padding: 16px 90px;
+        &:hover{
+          cursor:pointer;
+          background-color: $pri-color;
+          color:$sec-color;
+        }
+      }
+    }
+  
+  }
+  
+ .pagination{
+  color:$pri-color;
+  justify-content:flex-end;
+  margin-bottom: 60px;
+  margin-top: 10px;
+  
+  .pre-page,.next-page,.page{
+    border: 1px solid #eaf0ed;
+    font-size: $font-l-size;
+    padding: 16px 26px;
+      &:hover{
+      cursor:pointer;
+      background-color:$pri-color;
+      color:$sec-color;
+    }
+   
+   
+  }
+  .page{
+      font-size: $font-l-size;
+      color: $pri-color;
+    }
+
+  }
+ 
+  }
